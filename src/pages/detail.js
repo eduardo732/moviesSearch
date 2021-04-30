@@ -32,13 +32,13 @@ export class Detail extends Component {
     render() {
         const { Title, Poster, Actors, Metascore, Plot } = this.state.movie;
         return (
-            <div>
-                <ButtonBackToHome />
+            <div className='content-item'>
                 <h1>{Title}</h1>
                 <img src={Poster}  alt={Title}/>
                 <h3>{Actors}</h3>
                 <span>{Metascore}</span>
                 <p>{Plot}</p>
+                <ButtonBackToHome />
             </div>
         )
     }

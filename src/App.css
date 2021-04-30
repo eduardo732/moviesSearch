@@ -1,3 +1,9 @@
+*{
+  background-color:#151924;
+}
+body{
+  height: 100vh;
+}
 .App {
   padding-top: 36px;
   text-align: center;
@@ -9,10 +15,30 @@
 .moviesList{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 16px;
 }
 .moviesList-item{
   margin-bottom: 24px;
-  width: 48%;
+  width: 26%;
+}
+.content-item{
+  margin: 0px auto;
+  width: 25%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5%;
+  border-color: rgb(100, 63, 29);
+}
+.content-item h1{
+  margin: 10px 0px 10px 0px;
+}
+.content-item img{
+  margin: 10px 0px 10px 0px;
+}
+.content-item h3{
+  font-style: italic;
+}
+.content-item p{
+  margin: 10px 0px 10px 0px;
 }
